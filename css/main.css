@@ -183,6 +183,7 @@ p.lead {
   font-size: 2rem;
   line-height: 1.8;
   color: #888888;
+  text-align: justify;
 }
 @media only screen and (max-width: 768px) {
   p.lead {
@@ -1611,6 +1612,34 @@ header .logo a {
   padding-left: 13rem;
 }
 
+.section-intro .info-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.section-intro .info-list li {
+  text-align: left;
+  padding: 0 0 1.5rem 123px;
+  margin-bottom: 0.6rem;
+}
+
+.section-intro .info-list li strong {
+  font-family: "poppins-bold", sans-serif;
+  color: #313131;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.section-intro .info-list li span {
+  font-family: "lora-regular", serif;
+  color: #888888;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  
+}
+
 .about-content {
   position: relative;
   text-align: left;
@@ -1624,7 +1653,7 @@ header .logo a {
   letter-spacing: 0.25rem;
 }
 .about-content .info-list {
-  list-style: none;
+  
   margin-left: 0;
 }
 .about-content .info-list li {
@@ -1641,10 +1670,11 @@ header .logo a {
 }
 .about-content .info-list li span {
   display: block;
-  font-family: "poppins-regular", sans-serif;
+  font-family: "lora-regular", serif;
   color: #888888;
-  font-size: 1.5rem;
-  line-height: 1;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  
 }
 .about-content .skill-bars {
   margin-top: 6rem;
@@ -1682,7 +1712,7 @@ header .logo a {
   .about-content h3 {
     text-align: center;
   }
-  .about-content .info-list,
+  .intro-info .info-list,
   .about-content .skill-bars {
     margin-bottom: 4.2rem;
   }
